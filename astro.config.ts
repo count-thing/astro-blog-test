@@ -9,6 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  base: "/astro-blog-test", // Not required if it will live at root
   integrations: [
     tailwind({
       applyBaseStyles: false,
