@@ -2,6 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://astro-blog-test.count-thing.github.io/", // replace this with your deployed domain
+  base: "astro-blog-test", // Not required if it will live at root
   author: "Sat Naing",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "AstroPaper",
